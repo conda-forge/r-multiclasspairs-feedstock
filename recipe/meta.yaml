@@ -30,6 +30,7 @@ requirements:
     - r-dunn.test
     - r-e1071
     - r-ranger
+    - r-rdist
   run:
     - r-base >=4.0.0
     - r-boruta
@@ -37,6 +38,7 @@ requirements:
     - r-dunn.test
     - r-e1071
     - r-ranger
+    - r-rdist
 
 test:
   commands:

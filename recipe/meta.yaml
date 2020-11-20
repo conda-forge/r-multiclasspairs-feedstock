@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/multiclassPairs_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/multiclassPairs/multiclassPairs_{{ version }}.tar.gz
-  sha256: a6f280f7510efd4d5b12ff49b7e494b283684d7d621cee55f9b10220b41720b3
+  sha256: de6e057593b21efb123d3c94a739bb79e1055f94987a51c28e1bbdfce7022c68
 
 build:
   merge_build_host: true  # [win]
